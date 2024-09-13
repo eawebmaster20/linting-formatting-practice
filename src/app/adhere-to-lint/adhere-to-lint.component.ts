@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './adhere-to-lint.component.html',
-  styleUrl: './adhere-to-lint.component.css'
+  styleUrl: './adhere-to-lint.component.css',
 })
 export class AdhereToLintComponent {
   title = 'this component adhere to the ESLint rules';

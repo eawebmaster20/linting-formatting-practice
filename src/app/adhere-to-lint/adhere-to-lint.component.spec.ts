@@ -8,10 +8,9 @@ describe('AdhereToLintComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AdhereToLintComponent]
-    })
-    .compileComponents();
-    
+      imports: [AdhereToLintComponent],
+    }).compileComponents();
+
     fixture = TestBed.createComponent(AdhereToLintComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

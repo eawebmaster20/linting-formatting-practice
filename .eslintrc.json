@@ -9,7 +9,7 @@
         "plugin:@typescript-eslint/recommended",
         "plugin:@angular-eslint/recommended",
         "plugin:@angular-eslint/template/process-inline-templates",
-        "plugin:prettier/recommended"  // Add Prettier integration
+        "plugin:prettier/recommended" // Add Prettier integration
       ],
       "rules": {
         "@angular-eslint/directive-selector": [
@@ -28,7 +28,7 @@
             "style": "kebab-case"
           }
         ],
-        "prettier/prettier": "error",  // Enable Prettier as an ESLint rule
+        "prettier/prettier": "error", // Enable Prettier as an ESLint rule
         "no-unused-vars": "error",
         "max-len": ["error", { "code": 100 }]
       }
