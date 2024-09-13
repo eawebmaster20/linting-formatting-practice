@@ -10,7 +10,6 @@ export default [
       ecmaVersion: 2022,
       sourceType: "module",
       globals: {
-        // This adds Node.js global variables and Node.js scoping
         process: "readonly",
       },
     },
